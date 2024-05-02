@@ -3,7 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    background: url("bg.jpg");
+    background-size: 100%;
     color: #333;
 }
 .container {
