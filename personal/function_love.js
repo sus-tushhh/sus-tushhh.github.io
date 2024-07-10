@@ -43,9 +43,9 @@ function load(){
 
 function set_text(){
     const searchParams = new URLSearchParams(window.location.search);
-    var h = document.getElementById("text")
+    var h = document.getElementById("text");
     if(searchParams.has('t')){
-        h.innerHTML = searchParams.get('t')
+        h.innerHTML = searchParams.get('t');
     }
 
 }
