@@ -12,7 +12,7 @@ function teleport_random(){
     else{
         b.style.position = "absolute";
         b.style.bottom = `${randint(0,60)}%`;
-        b.style.left = `${randint(30,70)}%`;
+        b.style.left = `${randint(20,70)}%`;
     }
 }
 
