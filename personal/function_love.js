@@ -19,10 +19,11 @@ function teleport_random(){
 function no_click(){
     var b = document.getElementById('no');
     if(b.innerHTML == list[1]){
-        teleport_random()
+        teleport_random();
     }
     else{
         b.innerHTML = list[1];
+        teleport_random();
     }
 }
 
