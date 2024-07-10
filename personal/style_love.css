@@ -1,0 +1,76 @@
+body{
+    background-image: url("assets/background.gif");
+    background-size: 100%;
+}
+
+#heading{
+    background-color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px;
+}
+
+h1{
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 75px;
+    text-align: center;
+}
+
+#ans{
+    opacity:1;
+    background-color: transparent;
+    padding: 1cm;
+    width: 8cm;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button{
+    width: 7.64cm;
+    height: 1.2cm;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    background-color: rgb(255, 212, 147);
+    border-radius:10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.green{
+    color: rgb(70, 139, 0);
+}
+
+.red{
+    color: crimson;
+}
+
+.hearts{
+    width: 10%;
+    height: 10%;
+}
+
+#hearts1{
+    rotate: -25deg;
+    position: absolute;
+    bottom: 60%;
+    left: 17%;
+}
+
+#hearts2{
+    rotate: 15deg;
+    position: absolute;
+    top: 30%;
+    right: 14%;
+}
+
+#hearts3{
+    rotate: 50deg;
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+}
