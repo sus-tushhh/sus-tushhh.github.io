@@ -43,9 +43,13 @@ function load(){
 
 function set_text(){
     const searchParams = new URLSearchParams(window.location.search);
-    var h = document.getElementById("text");
     if(searchParams.has('t')){
+        var h = document.getElementById("t");
         h.innerHTML = searchParams.get('t');
-    }
+    };
+    if(searchParams.has('rb')){
+        var h = document.getElementById("rb");
+        h.innerHTML = searchParams.get('rb');
+    };
 
 }
