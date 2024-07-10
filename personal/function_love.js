@@ -40,3 +40,12 @@ function load(){
         body.innerHTML = "Mobile phones (iPhone, Android) are not supported";
     }
 }
+
+function set_text(){
+    const searchParams = new URLSearchParams(window.location.search);
+    var h = document.getElementById("text")
+    if(searchParams.has('t')){
+        h.innerHTML = searchParams.get('t')
+    }
+
+}
