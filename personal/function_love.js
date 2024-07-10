@@ -6,7 +6,7 @@ let list = ["Are you sure❓", "Am I not good for u❓"]
 
 function teleport_random(){
     var b = document.getElementById('no');
-    if(b.innerHTML == "No, I don't love you 😓" || b.innerHTML == list[0]){
+    if(b.innerHTML.includes("I don't") || b.innerHTML == list[0]){
         b.innerHTML = list[0];
     }
     else{
