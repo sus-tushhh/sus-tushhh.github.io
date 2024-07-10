@@ -26,7 +26,6 @@ function no_click(){
     }
 }
 
-
 function isMobile() {
     var check = false;
     (function(a){
