@@ -16,6 +16,13 @@ function teleport_random(){
     }
 }
 
+function mouseex(){
+    var b = document.getElementById("no");
+    if(b.innerHTML == list[0]){
+        b.innerHTML = "No, I don't <span id='rb'>love</span> you 😓"
+    }
+}
+
 function no_click(){
     var b = document.getElementById('no');
     if(b.innerHTML == list[1]){

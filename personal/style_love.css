@@ -33,6 +33,12 @@ h1{
     margin: 0 auto;
 }
 
+#ans button:active{
+    box-shadow: 2px 2px 2px;
+    transform: translate(2px, 2px);
+
+}
+
 button{
     width: 7.64cm;
     height: 1.2cm;
