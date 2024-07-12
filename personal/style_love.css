@@ -36,6 +36,7 @@ h1{
 #ans button:active{
     box-shadow: 2px 2px 2px;
     transform: translate(2px, 2px);
+    filter: brightness(90%);
 
 }
 
@@ -46,6 +47,7 @@ button{
     font-family: cursive;
     font-size: 25px;
     background-color: rgb(255, 212, 147);
+    border: 2px solid black;
     border-radius:10px;
     box-shadow: 5px 5px 5px;
 }
@@ -83,3 +85,33 @@ button{
     bottom: 20%;
     left: 7%;
 }
+
+#fireworks{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#fireworks img, #fireworks2 img{
+    width: 50%;
+    height: 100%;
+    animation: 2s ease 0s 1 slideInFromLeft;
+}
+
+#fireworks2{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 25%;
+    display: none;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      opacity: 0%;;
+    }
+    100% {
+      opacity: 100%;;
+    }
+  }

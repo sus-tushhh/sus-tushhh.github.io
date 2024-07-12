@@ -61,3 +61,10 @@ function set_text(){
     };
 
 }
+
+async function fireworks(){
+    var f = document.getElementById('fireworks');
+    var f2 = document.getElementById('fireworks2');
+    f.style.display = "block";
+    f2.style.display = "block";
+}
