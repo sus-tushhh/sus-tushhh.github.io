@@ -51,15 +51,18 @@ function load(){
 
 function set_text(){
     const searchParams = new URLSearchParams(window.location.search);
-    if(searchParams.has('t')){
-        var h = document.getElementById("t");
-        h.innerHTML = searchParams.get('t');
+    if(searchParams.has('relation')){
+        var h = document.getElementById("relation");
+        h.innerHTML = searchParams.get('relation');
     };
-    if(searchParams.has('rb')){
-        var h = document.getElementById("rb");
-        h.innerHTML = searchParams.get('rb');
+    if(searchParams.has('loveto')){
+        var h = document.getElementById("loveto");
+        h.innerHTML = searchParams.get('loveto');
     };
-
+    if(searchParams.has('heading')){
+        var h = document.getElementById("heading");
+        h.innerHTML = searchParams.get('heading');
+    }
 }
 
 async function fireworks(){
